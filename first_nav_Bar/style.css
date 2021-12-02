@@ -83,6 +83,7 @@ main h1{
 }
 
 main h1 span{
-    color: rgb(198, 201, 19);
+    /* color: rgb(198, 201, 19); */
     color: yellow;
+    text-shadow: 1px 2px 2px  white;
 }
