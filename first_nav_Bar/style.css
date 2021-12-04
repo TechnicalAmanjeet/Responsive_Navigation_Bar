@@ -126,8 +126,8 @@ nav .fa-bars{
     }
 
     nav ul{
-        position: fixed;
-        width: 100%;
+        position: sticky;
+        width: 100vw;
         height: 100vh;
         background-color: black;
         background: linear-gradient( rgba(0,0,0,1),rgba(0,0,0,0.7)), url(./Images/bg-1.jpeg) center/cover no-repeat fixed;
@@ -156,8 +156,10 @@ nav .fa-bars{
     }
 
     main{
-        display: none;
-        /* opacity: 0.1; */
+        /* display: none; */
+        opacity: 0.1;
     }
 }
+
+z
 
