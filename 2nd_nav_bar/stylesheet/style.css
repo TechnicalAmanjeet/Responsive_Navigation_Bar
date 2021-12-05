@@ -35,8 +35,8 @@ nav .logo{
 
 nav .fa-bars{
     float: right;
-    line-height: 80px;
-    font-size: 40px;
+    line-height: 50px;
+    font-size: 25px;
     display: none;
 }
 
@@ -48,7 +48,7 @@ nav ul{
 }
 
 nav ul li{
-
+    /* display: inline-block; */
      float: left;
     margin: 0 0 0 30px;
     /* border: 2px solid blue; */
@@ -123,20 +123,47 @@ a:hover{
     }
 }
 
-@media(max-width:455px){
+@media(max-width:500px){
     
     nav .fa-bars{
         display: inline;
         margin-right: 40px;
+        /* margin: auto; */
     }
-    nav ul{
 
-        position: relative;
+    nav{
+        background-color: black;
+    }
+    
+    nav ul{
+        /* background-color: black; */
+        height: 90vh;
+        width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        position: fixed;
         align-items: center;
-        display: none;
+        justify-content:space-around;
+        top: 50px;
+        /* left: 25%; */
+        /* font-size: 80px; */
     }
+
+    nav ul li a{
+        width: 100%;
+        font-size: 35px;
+        /* background-color: black; */
+        color: black;
+    }
+
+    a.active,a:hover{
+        background-color: transparent;
+        border: none;
+    }
+
+    body{
+        background:none;
+    }
+
 }
 
