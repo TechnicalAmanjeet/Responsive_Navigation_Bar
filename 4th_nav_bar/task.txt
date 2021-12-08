@@ -1,0 +1,7 @@
+****** what needs to be done *****
+1.) make all the navigation bar responsive i.e make nav bar mobile-first in nature.
+
+
+
+***** what has been done ******
+1.) navigation bar of 3 type has been done for pc/desktop screen

@@ -1,0 +1,7 @@
+******** what needs to be done *******
+1. website look okay in pc but needs to make more accurate for mobile first nature.
+2. add javascript code to make slider in mobile first web..
+
+***** what has been done ******
+1. html and css part is done
+2. added some code to make website responsive in nature but it is not responsive for mobile.

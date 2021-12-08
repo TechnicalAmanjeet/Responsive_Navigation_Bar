@@ -1,0 +1,3 @@
+**** what needs to be done ****
+1.) need to make website 1,2,3,4 responsive in nature so that it look cool in mobile.
+2.) in website 1,2 , need to add javascript code to make more efficient for mobile user.
