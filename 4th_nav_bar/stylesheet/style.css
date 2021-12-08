@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: aquamarine;
+    /* width: 100vw; */
+}
+  
+
+/* ******** custom coding of css starts from here ********  */
+
+.navigation_bar{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.fst_type nav{
+    width: 80%;
+    margin: 0 auto;
+    height: 60px;
+    background: rgb(15, 14, 14);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fst_type nav .logo{
+    font-size: 2.2rem;
+    font-weight: bolder;
+    margin-left: 8vw;
+}
+
+.fst_type nav .link{
+    margin-right: 5vw;
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+    /* font-weight: bolder; */
+    /* background-color: blue; */
+
+}
+
+.fst_type nav .link a{
+    padding: 3px 18px;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.fst_type nav .link a.contact{
+    background: rgb(0, 93, 155);
+}
+
+.fst_type nav .link a:hover{
+    transform: scale(1.1);
+    background: rebeccapurple;
+    transition: all .8s ease;
+}
+
+
+/* coding for 2nd type nav bar  */
+.snd_type nav{
+    width: 80%;
+    margin: 0 auto;
+    height: 60px;
+    background: rgb(15, 14, 14);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.snd_type nav .logo{
+    font-size: 2.2rem;
+    font-weight: bolder;
+    margin-left: 8vw;
+}
+
+.snd_type nav .link{
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+    /* font-weight: bolder; */
+    /* background-color: blue; */
+    
+}
+
+.snd_type nav .link a{
+    padding: 3px 18px;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.snd_type nav a.contact{
+    margin-right: 5vw;
+    padding: 3px 18px;
+    background-color: transparent;
+    border-radius: 20px;
+    background: rgb(0, 93, 155);
+}
+
+.snd_type nav a:hover{
+    transform: scale(1.1);
+    background: rebeccapurple;
+    transition: all .8s ease;
+}
+
+
+/* coading for 3rd type starts from here  */
+.trd_type nav{
+    /* background: transparent; */
+    flex-direction: row-reverse;
+}
+
+.trd_type nav .link{
+    margin: 0 0 0 7vw;
+    /* background-color: red; */
+}
+
+.trd_type nav .logo{
+    margin: 0 5vw 0 0;
+}
